@@ -1,6 +1,6 @@
 # Viikko 1:
 
-* Palautus 1: **Lauantaina 26.7 klo 23:59**
+* Palautus 1: **Perjantaina 26.7 klo 23:59**
     * Aihe, käytettävä ohjelmointikieli ja työn laajuus päätetty.
         * Juttele tarvittaessa ohjaajan kanssa. Jos toteutat jonkin valmiista aiheista Javalla ja kaikki on selvää, voit siirtyä suoraan määrittelydokumentin kirjoittamiseen. Jos haluat toteuttaa työn täysin omasta aiheesta tai erikoisemmalla kielellä, kannattaa asiasta jutella ennen palautuksen tekemistä.
     * Dokumentaatio: Määrittelydokumentti valmis.
