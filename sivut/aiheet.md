@@ -51,4 +51,4 @@ Toteuta yksi (tai useampi, riippuen vaativuudesta) signaalinkäsittelyalgoritmi 
 ### Muuta kivaa
 * Rahtifirma NopsaToimitus haluaa optimoida konttikuljetuksissa käytettävän tilan. Suunnittele miten voidaan täyttää yksi tai useampi kontti mahdollisimman tehokkaasti, jos tiedetään pakettien määrä ja koot. Ideaa voi hakea kuutiopalapelin ratkaisijasta.
 
-* Suunnittele säännöllisten lauseiden tulkki. Miksi? Loistava vastaus: http://blog.stevenlevithan.com/archives/10-reasons-to-learn-and-use-regular-expressions
+* Suunnittele säännöllisten lauseiden tulkki. Miksi? Loistava vastaus: https://web.archive.org/web/20181227172507/https://blog.stevenlevithan.com/archives/10-reasons-to-learn-and-use-regular-expressions
