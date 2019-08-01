@@ -28,6 +28,24 @@ Detailed course timing is available [here](aikataulu.md).
  * The final submission deadline is on Friday 6.9. at 23:59. There are no time extensions available.
  * If you find typos or other errors on the course pages, please submit a Pull Request with the fix ([instructions]( 	bug_bounty.md)). A bug bounty of 1 course point will be awarded for significant fixes (capped at 1 per student).
 
+## Links to course material
+
+* [Detailed course schedule](aikataulu.md)
+
+* [Topic ideas](aiheet.md)
+
+* [Information about the required documentation](dokumentaatio.md)
+
+* [Guide to using git](git-ohje.md)
+
+* [Guide and examples on testing in java projects](https://github.com/TiraLabra/Testing-and-rmq)
+
+* [Simple instructions for creating Gardle or Maven projects](maven-gradle.md)
+
+* [Information on submissions and weekly reports](palautukset.md)
+
+* [Information on peer reviews](vertaisarvioinnit.md)
+
 ## :notebook: Labtool
 
  * [https://studies.cs.helsinki.fi/labtool/](https://studies.cs.helsinki.fi/labtool/)
