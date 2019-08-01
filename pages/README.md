@@ -1,4 +1,4 @@
-# Data Structures Project, P IV
+# Data Structures Project, 2019 end of summer intensive period
 
 ## Course assistant
 
@@ -26,7 +26,7 @@ Detailed course timing is available [here](aikataulu.md).
  * Workshop for 8.2. mostly cancelled. Someone may be around for general algorith workshop stuff. If you have lab specific concerns I should be reachable through irc or e-mail.
  * Labtool should now work! -->
  * The final submission deadline is on Friday 6.9. at 23:59. There are no time extensions available.
- * If you find typos or other errors on the course pages, please submit a Pull Request with the fix. A bug bounty of 1 course point will be awarded for significant fixes (capped at 1 per student).
+ * If you find typos or other errors on the course pages, please submit a Pull Request with the fix ([instructions]( 	bug_bounty.md)). A bug bounty of 1 course point will be awarded for significant fixes (capped at 1 per student).
 
 ## :notebook: Labtool
 
