@@ -29,6 +29,24 @@ Tarkempi aikataulu [täällä](sivut/aikataulu.md).
  * Lopullinen palautus perjantaina 6.9. klo 23:59, tähän ei ole saatavilla lisäaikaa.
  * Jos löydät kurssisivuilta kirjoitus- tai muun virheen. Voit seurata [täältä](sivut/bug_bounty.md) löytyviä ohjeita virheen korjaamisesksi. Hyvistä korjauksista on mahdollista saada yhden kurssipisteen "bug bounty" (max 1 per oppilas)
 
+## Linkkejä materiaaliin
+
+* [Tarkka aikataulu](sivut/aikataulu.md)
+
+* [Aihe ideoita](sivut/aiheet.md)
+
+* [Tietoja dokumentaatiosta](sivut/dokumentaatio.md)
+
+* [Ohjeita gitin käyttöön](sivut/git-ohje.md)
+
+* [Ohejita ja esimerkkeijä testauksen tekemiseen javalla](https://github.com/TiraLabra/Testing-and-rmq)
+
+* [Yksinkertaiset ohjeet maven tai grale projektin luontiin](sivut/maven-gradle.md)
+
+* [Ohjeet palautuksien ja viikkoraportin tekemiseen](sivut/palautukset.md)
+
+* [Ohjeet vertaisarviointiin](sivut/vertaisarvioinnit.md)
+
 ## :notebook: Labtool
 
  * [https://studies.cs.helsinki.fi/labtool/](https://studies.cs.helsinki.fi/labtool/)
