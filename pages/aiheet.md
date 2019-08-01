@@ -51,4 +51,4 @@ You can either come up with your own topic or pick one from the ones below. The 
 ## Something else
 * The logistics company FastFreight wants to minimize the space wasted when packing containers. How can you calculate how to pack containers as efficiently as possible given a number of packages with given sizes?
 
-* Design and implement a regular expression engine. Why? Read this for an answer: http://blog.stevenlevithan.com/archives/10-reasons-to-learn-and-use-regular-expressions
+* Design and implement a regular expression engine. Why? Read this for an answer: https://web.archive.org/web/20181227172507/https://blog.stevenlevithan.com/archives/10-reasons-to-learn-and-use-regular-expressions
