@@ -41,7 +41,7 @@ Tarkempi aikataulu [täällä](sivut/aikataulu.md).
 
 * [Ohejita ja esimerkkeijä testauksen tekemiseen javalla](https://github.com/TiraLabra/Testing-and-rmq)
 
-* [Yksinkertaiset ohjeet maven tai grale projektin luontiin](sivut/maven-gradle.md)
+* [Yksinkertaiset ohjeet maven tai gradle projektin luontiin](sivut/maven-gradle.md)
 
 * [Ohjeet palautuksien ja viikkoraportin tekemiseen](sivut/palautukset.md)
 
