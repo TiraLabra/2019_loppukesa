@@ -33,15 +33,15 @@ Tarkempi aikataulu [täällä](sivut/aikataulu.md).
 
 * [Tarkka aikataulu](sivut/aikataulu.md)
 
-* [Aihe ideoita](sivut/aiheet.md)
+* [Aiheideoita](sivut/aiheet.md)
 
 * [Tietoja dokumentaatiosta](sivut/dokumentaatio.md)
 
 * [Ohjeita gitin käyttöön](sivut/git-ohje.md)
 
-* [Ohejita ja esimerkkeijä testauksen tekemiseen javalla](https://github.com/TiraLabra/Testing-and-rmq)
+* [Ohjeita ja esimerkkejä testauksen tekemiseen Javalla](https://github.com/TiraLabra/Testing-and-rmq)
 
-* [Yksinkertaiset ohjeet maven tai gradle projektin luontiin](sivut/maven-gradle.md)
+* [Yksinkertaiset ohjeet Maven- tai Gradle-projektin luontiin](sivut/maven-gradle.md)
 
 * [Ohjeet palautuksien ja viikkoraportin tekemiseen](sivut/palautukset.md)
 
