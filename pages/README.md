@@ -20,9 +20,9 @@ Detailed course timing is available [here](aikataulu.md).
 
 ## :mega: News
 
-<!-- * Time an place for demonstration sessions has been set. Contact a course assistant if you can't make either of the options.
+<!-- * Time an place for demonstration sessions has been set. Contact a course assistant if you can't make either of the options.-->
  * Doodle link for demo session planning has been sent to registered students. The email address is the one configured in weboodi.
- * First round of code review have been released. Check out labtool for links to repositories to review.
+ <!--* First round of code review have been released. Check out labtool for links to repositories to review.
  * Workshop for 8.2. mostly cancelled. Someone may be around for general algorith workshop stuff. If you have lab specific concerns I should be reachable through irc or e-mail.
  * Labtool should now work! -->
  * The final submission deadline is on Friday 6.9. at 23:59. There are no time extensions available.
