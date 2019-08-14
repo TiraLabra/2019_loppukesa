@@ -10,7 +10,7 @@ title: Data Structures Project, 2019 end of summer intensive period
 
 * Saska Dönges, (given-name@cs.helsinki.fi), saskeli@IRCnet
 
-## :calendar: Time table
+## 📅 Time table
 
 Detailed course timing is available [here](timing/).
 
@@ -24,7 +24,7 @@ Detailed course timing is available [here](timing/).
 | **35** 26.8.- |  |  |  |  | [DL 6 23:59](timing#week-6/) |  |  |
 | **36** 2.9.- |  |  |  |  | **[Final submission](https://github.com/TiraLabra/2019_3/blob/master/pages/timing#final-deadline/)** |  |  |
 
-## :mega: News
+## 📣 News
 
 <!-- * Time an place for demonstration sessions has been set. Contact a course assistant if you can't make either of the options.-->
  * Doodle link for demo session planning has been sent to registered students. The email address is the one configured in weboodi.
@@ -52,7 +52,7 @@ Detailed course timing is available [here](timing/).
 
 * [Information on peer reviews](peer_review/)
 
-## :notebook: Labtool
+## 🗒️ Labtool
 
  * [https://studies.cs.helsinki.fi/labtool/](https://studies.cs.helsinki.fi/labtool/)
  * Sign in with your University of Helsinki account.
@@ -89,7 +89,7 @@ Generally the Telegram and IRC chats are linked (bridged) together, so the cours
 * Jussi was also kind enough to allow [his project](https://github.com/yussiv/Compress) to be provided as an example. But stated that the project was made with pretty minimal effort.
 * Both of these still have a good project structure.
 
-## :trophy: Conduct of the course
+## 🏆 Conduct of the course
 Based on the number of credits (4) offered, the expected amount of work to complete the course should be approximately 107 hours. Plan to spend 15-20 hours on the course every week.
 
 In this course the student creates a program that solves some sort of a problem. For solving the problem the student will apply suitable data structures and algorithms. The problem to solve is selected by the student with the help of the course assistant. A passing (or even good) grade does not require developing an algorithm from scratch. A student may develop their own algorithm(s) if desired. The main point of the course is that the created program works correctly and efficiently. The size of the problem instances and required efficiency will depend on the topic, and will be decided with help from the course assistant. Some example topics can be found [here](topics/).
@@ -102,7 +102,7 @@ The primary goal of the course is to learn to implement data structures and algo
 
 Generally a good approach to incrementally complete a project has been to first implement the core functionality of the program by using ready-made data structures and algorithms (queues, heaps, sorting algorithms). That is, it may be a prudent to first quickly implement the core functinality and later replace library implementations with self-made ones, i.e. replace implementations defined by interfaces with data structures and algorithms made from scratch. This is the assumed working idea for the project timeline. If you want to approach the project in a different way, you should decide on progress milestones for the project with the course assistant during the first week of the course.
 
-## :chart_with_upwards_trend: Grading criteria
+## 📈 Grading criteria
 * Program: 30 p
    * Functionality and features 10 p
    * Testing 10 p
