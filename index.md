@@ -5,9 +5,9 @@
 layout: home
 ---
 
-## [Link to english materials](en/)
+## Link to english materials
 
-# Aineopintojen harjoitustyö: Tietorakenteet ja algoritmit, periodi Loppukesä
+[Link to english materials](en/)
 
 ## Ohjaaja
 
