@@ -7,7 +7,7 @@ url: https://saskeli.github.io/2019_loppukesa # the base hostname & protocol for
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
