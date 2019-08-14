@@ -6,6 +6,8 @@ layout: home
 title: Tiralabra
 ---
 
+<script src="assets/fuu.js"></script>
+
 ## Link to english materials
 
 [Link to english materials](en/)
@@ -18,15 +20,10 @@ title: Tiralabra
 
 Tarkempi aikataulu [täällä](fi/aikataulu/).
 
-|  Viikko | Ma | Ti | Ke | To | Pe | La | Su |
-|---------------------------|:--:|:--:|:----------------------------:|:--:|:----------------------:|:--:|:----------:|
-| **30** 22.7.- | Aloitustilaisuus 14-16 B119 |  |  |  | [DL 1 23:59](fi/aikataulu#viikko-1) |  |  |
-| **31** 29.7.- |  |  | |  | [DL 2 23:59](fi/aikataulu#viikko-2) |  |  |
-| **32** 5.8.- |  |  |  |  | [DL 3 23:59](fi/aikataulu#viikko-3) |  |  |
-| **33** 12.8.- |  |  |  |  | [DL 4 23:59](fi/aikataulu#viikko-4) |  |  |
-| **34** 19.8.- |  |  |  |  | [DL 5 23:59](fi/aikataulu#viikko-5) |  |  |
-| **35** 26.8.- |  |  |  |  | [DL 6 23:59](fi/aikataulu#viikko-6) |  |  |
-| **36** 2.9.- |  |  |  |  |  **[Lopullinen palautus](fi/aikataulu#lopullinen-palautus)** |  |  |
+<script>
+    script = document.scripts[document.scripts.length - 1];
+    script.parentElement.insertBefore(makeCalendarFi(), script);
+</script>
 
 ## 📣 Ajankohtaista
 
@@ -34,7 +31,7 @@ Tarkempi aikataulu [täällä](fi/aikataulu/).
  * Doodle linkki demotilaisuuden aikatauluttamiseksi on lähetetty kurssille ilmoittautuneille opiskelijoille. Sähköposti on lähtenyt siihen osoitteseen mikä on weboodiin rekisteröity.
  <!--* Ekat koodikatselmoinnit on jaettu. Katsokaa katselmoitavat labtoolista.
 -->
- * Lopullinen palautus perjantaina 6.9. klo 23:59, tähän ei ole saatavilla lisäaikaa.
+ * Lopullinen palautus <script>document.write(fiString(timing["end"].date));</script>, tähän ei ole saatavilla lisäaikaa.
  * Jos löydät kurssisivuilta kirjoitus- tai muun virheen. Voit seurata [täältä](fi/bug_bounty) löytyviä ohjeita virheen korjaamisesksi. Hyvistä korjauksista on mahdollista saada yhden kurssipisteen "bug bounty" (max 1 per oppilas)
 
 ## Linkkejä materiaaliin

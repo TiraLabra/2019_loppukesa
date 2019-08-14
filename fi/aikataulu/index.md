@@ -8,7 +8,7 @@ permalink: /fi/aikataulu/
 
 # Viikko 1:
 
-* Palautus 1: **Perjantaina 26.7 klo 23:59**
+* Palautus 1: **<script>document.write(fiString(timing["dl1"].date));</script>**
     * Aihe, käytettävä ohjelmointikieli ja työn laajuus päätetty.
         * Juttele tarvittaessa ohjaajan kanssa. Jos toteutat jonkin valmiista aiheista Javalla ja kaikki on selvää, voit siirtyä suoraan määrittelydokumentin kirjoittamiseen. Jos haluat toteuttaa työn täysin omasta aiheesta tai erikoisemmalla kielellä, kannattaa asiasta jutella ennen palautuksen tekemistä.
     * Dokumentaatio: Määrittelydokumentti valmis.
@@ -22,7 +22,7 @@ permalink: /fi/aikataulu/
 
 # Viikko 2:
 
-* Palautus 2: **Perjantaina 2.8. klo 23:59**
+* Palautus 2: **<script>document.write(fiString(timing["dl2"].date));</script>**
     * [Dokumentaatio](../dokumentaatio/): Kirjoitettu koodi on selkeää ja kommentoitua (esim. Javalla tehdyssä työssä Javadoc-kommentit).
     * Viikkoraportti numero 2: ks. [Palautukset](../palautukset/)
     * Ohjelma: Aloitettu ydinalueen toteutus käyttäen tarvittaessa esim. Javan valmiita tietorakenteita (ArrayList, HashMap yms.). Nämä korvataan myöhemmin omilla tietorakenteilla, mutta useissa tapauksissa ohjelman toteutus on helpompi aloittaa jostain muusta kuin tietorakenteista.
@@ -31,7 +31,7 @@ permalink: /fi/aikataulu/
 
 # Viikko 3:
 
-* Palautus 3: **Perjantaina 9.8. klo 23:59**
+* Palautus 3: **<script>document.write(fiString(timing["dl3"].date));</script>**
     * [Dokumentaatio](../dokumentaatio/): Kirjoitettu koodi selkeää ja kommentoitua.
     * Viikkoraportti numero 3
     * Ohjelma: Ohjelman ydinalue edennyt, aloitettu mahdollisesti jo omien tietorakenteiden toteutus.
@@ -43,7 +43,7 @@ permalink: /fi/aikataulu/
 * Ohjeet vertaisarviointiin [täällä](../vertaisarvioinnit/)
 * Salli issuet vertaisarviointia varten, katso [Issueiden luonnin salliminen repoon](../issuet/)
 
-* Palautus 4: **Perjantaina 16.8. klo 23:59**
+* Palautus 4: **<script>document.write(fiString(timing["dl4"].date));</script>**
     * [Dokumentaatio](../dokumentaatio/): Koodi kommentoitua. Aloitettu kirjoittamaan toteutus- ja testausdokumentaatiota.
     * Viikkoraportti numero 4
     * Ohjelma: Ohjelman ydintoiminta valmis. Omia tietorakenteita aloitettu.
@@ -53,7 +53,7 @@ permalink: /fi/aikataulu/
 
 * Toiset vertaisarvioinnit jaetaan viikon palautuksen jälkeen. Katso [labtoolista](https://studies.cs.helsinki.fi/labtool/) linkki katselmoitavaan repoon. **Vertaisarvionnin deadline on sama kuin DL 6.**
 
-* Palautus 5: **Perjantaina 23.8. klo 23:59**
+* Palautus 5: **<script>document.write(fiString(timing["dl5"].date));</script>**
    * Ensimmäinen vertaisarviointi tehtynä (Löydät linkin katselmoitavaan repoon [labtoolista](https://studies.cs.helsinki.fi/labtool/))
    * [Dokumentaatio](../dokumentaatio/): Koodi kommentoitua. Aloitettu kirjoittamaan toteutus- ja testausdokumentaatiota.
    * Viikkoraportti numero 5
@@ -62,7 +62,7 @@ permalink: /fi/aikataulu/
 
 # Viikko 6:
 
-* Palautus 6: **Perjantaina 30.8. klo 23:59**
+* Palautus 6: **<script>document.write(fiString(timing["dl6"].date));</script>**
    * **Toinen vertaisarviointi tehtynä** (löydät linkin katselmoitavaan repoon [labtoolista](https://studies.cs.helsinki.fi/labtool/))
    * [Dokumentaatio](../dokumentaatio/): Kirjoitettu koodi kommentoitua. Toteutus- ja testausdokumentaatiota kirjoitettu.
    * Viikkoraportti numero 6
@@ -71,15 +71,21 @@ permalink: /fi/aikataulu/
 
 # Demo tilaisuus:
 
-* Tarkka aika ja paikka varmistuu kurssin kuluessa.
-<!--* Aika ja paikka: Maanantai 6.5. 10-12 D122.-->
+* <script>
+  if (timing["demo"]) {
+    document.write("Aika ja paikka: " + fiEvent(timing["demo"]));
+  } else {
+    document.write("Tarkka aika ja paikka varmistuu kurssin kuluessa.")
+  }
+</script>
+<!--* Maanantai 6.5. 10-12 D122.-->
 * Mahdollisuus esittää koulun koneelta, mutta aiemmin sen kanssa on ollut ongelmia joten suositeltavaa ottaa oma läppäri.
 * Lyhyt noin 5 minuuttinen esitys ja mahdollisiin kysymyksiin vastailu (riippuen aikataulusta).
 
 
 # LOPULLINEN PALAUTUS
 
-**Perjantaina 6.9. klo 23:59**
+**<script>document.write(fiString(timing["end"].date));</script>**
 
 * **Dokumentaatio:**
     * 100% selkeää ja kommentoitu koodi (jos käytit Javaa, generoi Javadoc ja lisää palautukseen)

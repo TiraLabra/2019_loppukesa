@@ -5,7 +5,7 @@
 layout: home
 title: Data Structures Project, 2019 end of summer intensive period
 ---
-
+<script src="../assets/fuu.js"></script>
 ## Course assistant
 
 * Saska Dönges, (given-name@cs.helsinki.fi), saskeli@IRCnet
@@ -14,24 +14,19 @@ title: Data Structures Project, 2019 end of summer intensive period
 
 Detailed course timing is available [here](timing/).
 
-|  Viikko | Ma | Ti | Ke | To | Pe | La | Su |
-|---------------------------|:--:|:--:|:----------------------------:|:--:|:----------------------:|:--:|:----------:|
-| **30** 22.7.- | Mandatory lecture 14-16 B119 |  |  |  | [DL 1 23:59](timing#viikko-1/) |  |  |
-| **31** 29.7.- |  |  | |  | [DL 2 23:59](timing#week-2/) |  |  |
-| **32** 5.8.- |  |  |  |  | [DL 3 23:59](timing#week-3/) |  |  |
-| **33** 12.8.- |  |  |  |  | [DL 4 23:59](timing#week-4/) |  |  |
-| **34** 19.8.- |  |  |  |  | [DL 5 23:59](timing#week-5/) |  |  |
-| **35** 26.8.- |  |  |  |  | [DL 6 23:59](timing#week-6/) |  |  |
-| **36** 2.9.- |  |  |  |  | **[Final submission](https://github.com/TiraLabra/2019_3/blob/master/pages/timing#final-deadline/)** |  |  |
+<script>
+    script = document.scripts[document.scripts.length - 1];
+    script.parentElement.insertBefore(makeCalendarEn(), script);
+</script>
 
 ## 📣 News
 
-<!-- * Time an place for demonstration sessions has been set. Contact a course assistant if you can't make either of the options.-->
- * Doodle link for demo session planning has been sent to registered students. The email address is the one configured in weboodi.
- <!--* First round of code review have been released. Check out labtool for links to repositories to review.
+<!-- * Time an place for demonstration sessions has been set. Contact a course assistant if you can't make either of the options.
+ *  First round of code review have been released. Check out labtool for links to repositories to review.
  * Workshop for 8.2. mostly cancelled. Someone may be around for general algorith workshop stuff. If you have lab specific concerns I should be reachable through irc or e-mail.
- * Labtool should now work! -->
- * The final submission deadline is on Friday 6.9. at 23:59. There are no time extensions available.
+ * Labtool should now work!-->
+ * Doodle link for demo session planning has been sent to registered students. The email address is the one configured in weboodi.
+ * The final submission deadline is on <script>document.write(enString(timing["end"].date));</script>. There are no time extensions available.
  * If you find typos or other errors on the course pages, please submit a Pull Request with the fix ([instructions]( 	bug_bounty.md)). A bug bounty of 1 course point will be awarded for significant fixes (capped at 1 per student).
 
 ## Links to course material

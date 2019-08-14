@@ -8,7 +8,7 @@ permalink: /en/timing/
 
 # Week 1:
 
-* Submission 1: **Saturday 26.7. 23:59**
+* Submission 1: **<script>document.write(enString(timing["dl1"].date));</script>**
     * You have a topic, programming language and sense of project scope.
       * You should consult with the course assistant if anything is unclear. If you are using Java and have selected a clearly valid topic you can move on to creating the project specification. If you have a topic you are uncertain about or if you are considering not using Java you should definitely discuss with the course assistant.
     * Documentation: Project specification done.
@@ -22,7 +22,7 @@ permalink: /en/timing/
 
 # Week 2:
 
-* Submission 2: **Friday 2.8. 23:59**
+* Submission 2: **<script>document.write(enString(timing["dl2"].date));</script>**
     * [Documentation](../documentation/): Written code is clear and commented (e.g. Java program contains Javadoc comments).
     * Week 2 report: see [submissions](../submissions/)
     * Program: Work on implementing the core functionality has been started possibly using library implementations of algorithms and data structures. These will later be replaced with self-made implementations, but in many cases it's easier to use library implementations first.
@@ -31,7 +31,7 @@ permalink: /en/timing/
 
 # Week 3:
 
-* Submission 3: **Friday 9.8. 23:59**
+* Submission 3: **<script>document.write(enString(timing["dl3"].date));</script>**
     * [Documentation](../docuementation/): Written code is clear and commented.
     * Week 3 report.
     * Program: Werk on implementing core functionality has continued. Possibly started implementing data structures.
@@ -43,7 +43,7 @@ permalink: /en/timing/
 * See instructions for code reviews [here](../peer_review/)
 * Remember to enable issues for your repositories. See [enabling issues](../issues/)
 
-* Submission 4: **Friday 16.8. 23:59**
+* Submission 4: **<script>document.write(enString(timing["dl4"].date));</script>**
     * [Documentation](../documentation/): Written code is clear and commented. Started on testing and implementation documentation.
     * Week 4 report.
     * Program: Core functionality completed. Working on implementing data structures.
@@ -53,7 +53,7 @@ permalink: /en/timing/
 
 * The second round of code reviews will be given out after the week 5 deadline. Check Labtool for a link to the repository to review. **The deadline for the second code review is the same as the week 6 deadline.**
 
-* Submission 5: **Friday 23.8. 23:59**
+* Submission 5: **<script>document.write(enString(timing["dl5"].date));</script>**
    * **The first code review is completed**. (See [Labtool](https://studies.cs.helsinki.fi/labtool/) for link to repository)
    * [Documentations](../documentation/): Written code is clear and commented. Started on testing and implementation documentation.
    * Week 5 report.
@@ -62,7 +62,7 @@ permalink: /en/timing/
 
 # Week 6:
 
-* Submission 6: **Friday 30.8. 23:59**
+* Submission 6: **<script>document.write(enString(timing["dl6"].date));</script>**
    * **The first code review is completed**. (See [Labtool](https://studies.cs.helsinki.fi/labtool/) for link to repository)
    * [Documentation](../documentation/): Written code is clear and commented. Mostly done with testing and implementation documentation.
    * Week 6 report.
@@ -71,12 +71,20 @@ permalink: /en/timing/
 
 # Demo session:
 
-* The exact time and date will be available later.
-<!--* Time and place: Monday 6.5. 10-12 D122.-->
+* <script>
+  if (timing["demo"]) {
+    document.write("Time and place: " + enEvent(timing["demo"]));
+  } else {
+    document.write("The exact time and date will be available later.")
+  }
+</script>
 * You can either present using the class computer or by using your own laptop. Typically using your own laptop is recommended.
 * A short approximately 5 minute presentation of your project and possibly some questions and answers.
 
-# FINAL DEADLINE: Friday 6.9. 23:59
+# FINAL DEADLINE
+
+**<script>document.write(enString(timing["end"].date));</script>**
+
 * **Documentation:**
     * 100% clear and commented code. (If you are using Java, you should generate the Javadoc files and add or link them to your repository)
     * Done documentation:
