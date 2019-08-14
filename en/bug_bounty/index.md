@@ -6,8 +6,6 @@ tag: info
 permalink: /en/bug_bounty/
 ---
 
-# Errors in the material
-
 If you find typos or other errors (like broken links) in the material, sign in to GitHub, click the pencil icon on the top right:
 
 ![](http://saskeli.kapsi.fi/kyna.png)

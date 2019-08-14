@@ -6,8 +6,6 @@ tag: info
 permalink: /en/documentation/
 ---
 
-# Documentation
-
 **Note:** all documentation is to be submitted to git as [markdown](https://github.com/github/markup) documents! All documents should be in a separate folder at the root of the repository.
 
 Besides the code, weekly reports and code reviews you need to create four documents: the specification, implementation and testing documents as well as a user guide. Compared to some other courses, the importance of the documentation is a bit less. Focus is on efficient and good code.

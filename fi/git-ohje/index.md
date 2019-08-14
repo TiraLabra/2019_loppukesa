@@ -6,8 +6,6 @@ tag: info
 permalink: /fi/git-ohje/
 ---
 
-# Git ohje
-
 Git on laajalti käytetty versionhallinnan työkalu, jota tarvitset esimerkiksi harjoitustöitä tehdessäsi. Versionhallinnan avulla tiedostoihin tekemäsi muutokset ovat aina tallessa, ja voit palata edelliseen versioon, jos jokin menee pieleen.
 
 Verkossa on paljon loistavaa, paremmin kuvitettua ja jopa videoilla varustettua kunnollista materiaalia gitin käytöstä. Suosittelemme ennemmin tutustumaan siihen, mikäli englanninkielinen materiaali ei tuota liikaa vaikeuksia.

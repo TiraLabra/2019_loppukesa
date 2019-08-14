@@ -6,8 +6,6 @@ tag: info
 permalink: /fi/labtool/
 ---
 
-# Labtool
-
 Saat viikoittaista palautetta työstäsi [Labtoolin](https://studies.cs.helsinki.fi/labtool/) kautta.
 
 **Huom. luo ensin harjoitustyöllesi github-repositorio.**

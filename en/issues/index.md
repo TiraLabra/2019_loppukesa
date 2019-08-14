@@ -1,12 +1,10 @@
 ---
 layout: info
-title:  "Issues"
+title:  "Enabling issue creation for your repository"
 categories: jekyll update
 tag: info
 permalink: /en/issues/
 ---
-
-# Enabling issue creationg for your repository
 
 1) Browse to your repository
 

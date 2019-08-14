@@ -1,12 +1,10 @@
 ---
 layout: info
-title:  "Maven - Gradle"
+title:  "Maven and Gradle"
 categories: jekyll update
 tag: info
 permalink: /en/maven-gradle/
 ---
-
-# Maven and Gradle
 
 Below minimum effort was to create maven and gradle projects for java are presented. If you already know what you are doing and have your own preferred approach to project creation, you are free to disregard this document.
 

@@ -1,12 +1,10 @@
 ---
 layout: info
-title:  "Issueiden luonnin salliminen"
+title:  "Issueiden luonnin salliminen repooon"
 categories: jekyll update
 tag: info
 permalink: /fi/issuet/
 ---
-
-# Issueiden luonnin salliminen repoon
 
 1) Mene repositoriosi
 

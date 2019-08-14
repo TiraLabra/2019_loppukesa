@@ -6,8 +6,6 @@ tag: info
 permalink: /fi/vertaisarvioinnit/
 ---
 
-# Vertaisarviointi
-
 Vertaisarviointi (=Koodikatselmointi) on osa Tiran harjoitustyötä. Katselmoinnista voi saada maksimissaan 2 pistettä / kerta.
 
 Tämän katselmoinnin perimmäinen tarkoitus on oppia hahmottamaan toisen henkilön kirjoittamaa koodia ja kokonaista ohjelmointiprojektia. Toisten koodia luetaan kursseilla toistaiseksi valitettavan vähän, vaikka sujuva koodinlukutaito on välttämätön taito ohjelmoijan työssä. Hyvin suoritettu katselmointi on tehokas tapa havaita ongelmakohtia ja korjata virheitä mahdollisimman varhaisessa vaiheessa ohjelmointiprojektia.

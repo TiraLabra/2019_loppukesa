@@ -3,9 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: Data Structures Project, 2019 end of summer intensive period
 ---
-
-# Data Structures Project, 2019 end of summer intensive period
 
 ## Course assistant
 

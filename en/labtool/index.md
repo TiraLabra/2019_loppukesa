@@ -6,8 +6,6 @@ tag: info
 permalink: /en/labtool/
 ---
 
-# Labtool
-
 Each week you will get course feedback through [Labtool](https://studies.cs.helsinki.fi/labtool/).
 
 **N.B. Create your GitHub project repository first.**

@@ -1,12 +1,10 @@
 ---
 layout: info
-title:  "Maben ja Gradle"
+title:  "Maven ja Gradle"
 categories: jekyll update
 tag: info
 permalink: /fi/maven-gradle/
 ---
-
-# Maven ja Gradle
 
 Alla Mahdollisimman yksinkertaistettu tapa saada pystyyn java gradle tai maven projekti. Jos tiedät jo mitä teet ja sinulla on tapa jota mielummin käytät, niin voit vapaasti sivuuttaa tämän ohjeen.
 

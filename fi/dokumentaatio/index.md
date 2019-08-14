@@ -6,8 +6,6 @@ tag: info
 permalink: /fi/dokumentaatio/
 ---
 
-# Dokumentaatio
-
 **Huom:** kaikki dokumentit palautetaan joko GitHubin tukemassa markdown-muodossa, katso tuetut formaatit [täältä](https://github.com/github/markup) tai .pdf-muodossa! Sijoita dokumentit omaan hakemistoonsa projektin juureen.
 
 Koodin lisäksi tehtävänä on neljä dokumenttia: määrittelydokumentti, toteutusdokumentti, käyttöohje ja testausdokumentti. Dokumenttien merkitys kurssilla on kuitenkin vähäisempi; olennainen asia on toimiva ja tehokas koodi.

@@ -1,12 +1,10 @@
 ---
 layout: info
-title:  "Git"
+title:  "Git resources"
 categories: jekyll update
 tag: info
 permalink: /en/git/
 ---
-
-# Git resources
 
 Git is a commonly used version control tool, that you will need at least for completing project work. Using version control, all the previous versions of files are available and can be returned should anything go wrong with the project.
 

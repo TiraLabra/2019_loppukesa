@@ -6,7 +6,6 @@ tag: info
 permalink: /en/submissions/
 ---
 
-## Submissions
 All submissions are done using github. No submissions will be considered through any other channels. First create a github repository for your project and then register with labtool.
 
 A guide for using labtool can be found [here](../labtool).

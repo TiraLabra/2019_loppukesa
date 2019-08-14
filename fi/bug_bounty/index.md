@@ -1,12 +1,10 @@
 ---
 layout: info
-title:  "Bug bounty"
+title:  "Puutteista materiaalissa"
 categories: jekyll update
 tag: info
 permalink: /fi/bug_bounty/
 ---
-
-# Puutteista materiaalissa
 
 Jos huomaat kurssimateriaalissa kirjoitusvirheitä tai muita puutteita (esimerkiksi rikkinäisen linkin), kirjaudu GihHubiin, paina sivulla olevaa kynä-symbolia:
 
