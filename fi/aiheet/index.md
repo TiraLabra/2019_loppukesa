@@ -1,13 +1,10 @@
 ---
 layout: info
 title:  "Aiheita"
-date:   2018-09-02 19:07:27 +0300
 categories: jekyll update
 tag: info
 permalink: /fi/aiheet/
 ---
-
-# Aiheet
 
 Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiintoinen aihe. Listalla olevat aiheet ovat vain ehdotuksia, niitä voi muokata ja kehittää - lopullinen aihe sovitaan yhdessä ohjaajan kanssa. Aiheita voi katsoa myös kurssin aiemman version [sivuilta](https://github.com/TiraLabra/2017-loppukesa/wiki/Aiheita).
 
