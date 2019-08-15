@@ -1,12 +1,13 @@
 const timing = {
     "start": {"date": "2019-07-22", "fi": "Aloitusluento", "en": "Mandatory lecture", "common": "14-16 B119"},
-    "demo": {"date": "2019-09-04", "fi": "Demotilaisuus", "en": "Demo Session", "common": "14-16 B119"},
+//    "paja": {"date": "2019-08-30", "en": "Workshop", "fi": "Paja", "common": "10-12 B221"},
     "dl1": {"date": "2019-07-26T23:59:59+03:00", "en": "DL 1", "fi": "DL 1"},
     "dl2": {"date": "2019-08-02T23:59:59+03:00", "en": "DL 2", "fi": "DL 2"},
     "dl3": {"date": "2019-08-09T23:59:59+03:00", "en": "DL 3", "fi": "DL 3"},
     "dl4": {"date": "2019-08-16T23:59:59+03:00", "en": "DL 4", "fi": "DL 4"},
     "dl5": {"date": "2019-08-23T23:59:59+03:00", "en": "DL 5", "fi": "DL 5"},
     "dl6": {"date": "2019-08-30T23:59:59+03:00", "en": "DL 6", "fi": "DL 6"},
+    "demo": {"date": "2019-09-04", "fi": "Demotilaisuus", "en": "Demo Session", "common": "14-16 B119"},
     "end": {"date": "2019-09-06T23:59:59+03:00", "en": "Final submission", "fi": "Loppupalautus"}
 };
 
@@ -83,7 +84,11 @@ function fillCells(rows, minWk, key) {
         var rowOffset = date.getWeek() - minWk + 1;
         var colOffset = date.getDay() === 0 ? 7 : date.getDay();
         var common = event["common"] ? event["common"] : getHM(date);
-        rows[rowOffset][colOffset].innerHTML = "<b>" + event[key] + "</b><br/>" + common;
+        if (rows[rowOffset][colOffset].innerHTML) {
+            rows[rowOffset][colOffset].innerHTML = rows[rowOffset][colOffset].innerHTML + "<br/><b>" + event[key] + "</b><br/>" + common;
+        } else {
+            rows[rowOffset][colOffset].innerHTML = "<b>" + event[key] + "</b><br/>" + common;
+        }
     });
     return rows;
 }
