@@ -90,7 +90,6 @@ function fillCells(rows, minWk, key) {
 
 function makeTable(rows) {
     var tab = document.createElement("table");
-    console.log(rows);
     rows.forEach(cells => {
         var row = document.createElement("tr");
         cells.forEach(cell => {
