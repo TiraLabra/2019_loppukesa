@@ -1,6 +1,6 @@
 const timing = {
     "start": {"date": "2019-07-22", "fi": "Aloitusluento", "en": "Mandatory lecture", "common": "14-16 B119"},
-//    "demo": {"date": "2019-09-04", "fi": "Demotilaisuus", "en": "Demo Session", "common": "10-12 B222"},
+    "demo": {"date": "2019-09-04", "fi": "Demotilaisuus", "en": "Demo Session", "common": "14-16 B119"},
     "dl1": {"date": "2019-07-26T23:59:59+03:00", "en": "DL 1", "fi": "DL 1"},
     "dl2": {"date": "2019-08-02T23:59:59+03:00", "en": "DL 2", "fi": "DL 2"},
     "dl3": {"date": "2019-08-09T23:59:59+03:00", "en": "DL 3", "fi": "DL 3"},
