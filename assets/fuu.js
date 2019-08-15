@@ -1,52 +1,16 @@
 const timing = {
-    "start": {
-        "date": "2019-07-22",
-        "fi": "Aloitusluento",
-        "en": "Mandatory lecture",
-        "common": "14-16 B119"
-    },
-//    "demo": {
-//        "date": "2019-09-04",
-//        "fi": "Demotilaisuus",
-//        "en": "Demo Session",
-//        "common": "10-12 B222"
-//    },
-    "dl1": {
-        "date": "2019-07-26T23:59:59+03:00",
-        "en": "DL 1",
-        "fi": "DL 1"
-    },
-    "dl2": {
-        "date": "2019-08-02T23:59:59+03:00",
-        "en": "DL 2",
-        "fi": "DL 2"
-    },
-    "dl3": {
-        "date": "2019-08-09T23:59:59+03:00",
-        "en": "DL 3",
-        "fi": "DL 3"
-    },
-    "dl4": {
-        "date": "2019-08-16T23:59:59+03:00",
-        "en": "DL 4",
-        "fi": "DL 4"
-    },
-    "dl5": {
-        "date": "2019-08-23T23:59:59+03:00",
-        "en": "DL 5",
-        "fi": "DL 5"
-    },
-    "dl6": {
-        "date": "2019-08-30T23:59:59+03:00",
-        "en": "DL 6",
-        "fi": "DL 6"
-    },
-    "end": {
-        "date": "2019-09-06T23:59:59+03:00",
-        "en": "Final submission",
-        "fi": "Loppupalautus"
-    }
+    "start": {"date": "2019-07-22", "fi": "Aloitusluento", "en": "Mandatory lecture", "common": "14-16 B119"},
+//    "demo": {"date": "2019-09-04", "fi": "Demotilaisuus", "en": "Demo Session", "common": "10-12 B222"},
+    "dl1": {"date": "2019-07-26T23:59:59+03:00", "en": "DL 1", "fi": "DL 1"},
+    "dl2": {"date": "2019-08-02T23:59:59+03:00", "en": "DL 2", "fi": "DL 2"},
+    "dl3": {"date": "2019-08-09T23:59:59+03:00", "en": "DL 3", "fi": "DL 3"},
+    "dl4": {"date": "2019-08-16T23:59:59+03:00", "en": "DL 4", "fi": "DL 4"},
+    "dl5": {"date": "2019-08-23T23:59:59+03:00", "en": "DL 5", "fi": "DL 5"},
+    "dl6": {"date": "2019-08-30T23:59:59+03:00", "en": "DL 6", "fi": "DL 6"},
+    "end": {"date": "2019-09-06T23:59:59+03:00", "en": "Final submission", "fi": "Loppupalautus"}
 };
+
+const doodleSent = true;
 
 const enDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const enMonths = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];

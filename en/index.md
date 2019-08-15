@@ -21,11 +21,17 @@ Detailed course timing is available [here](timing/).
 
 ## 📣 News
 
-<!-- * Time an place for demonstration sessions has been set. Contact a course assistant if you can't make either of the options.
- *  First round of code review have been released. Check out labtool for links to repositories to review.
- * Workshop for 8.2. mostly cancelled. Someone may be around for general algorith workshop stuff. If you have lab specific concerns I should be reachable through irc or e-mail.
- * Labtool should now work!-->
- * Doodle link for demo session planning has been sent to registered students. The email address is the one configured in weboodi.
+* <script>
+   if (doodleSent) {
+    if (timing["demo"]) {
+      document.write("Time an place for demonstration sessions has been set. Contact a course assistant if you can't make it.");
+    } else {
+      document.write("Doodle link for demo session planning has been sent to registered students. The email address is the one configured in weboodi.");
+    }
+   } else {
+    document.write("A poll will be sent out around the half way point of the course to schedule demo session(s).");
+   }
+ </script>
  * The final submission deadline is on <script>document.write(enString(timing["end"].date));</script>. There are no time extensions available.
  * If you find typos or other errors on the course pages, please submit a Pull Request with the fix ([instructions]( 	bug_bounty.md)). A bug bounty of 1 course point will be awarded for significant fixes (capped at 1 per student).
 
@@ -60,7 +66,7 @@ Generally the Telegram and IRC chats are linked (bridged) together, so the cours
 
 ## Guidance
 
-* There is no weekly course assistance during the summer intensive period. If you want face to face assistance on campus please contact the course assistant.<!--Primarily the course assistant will be available on Fridays 15-18 in class BK107.-->
+* There is no weekly course assistance during the summer intensive period. If you want face to face assistance on campus please contact the course assistant.
 * You may also contact the course assistant through [Telegram](https://t.me/tkttiralabra) or IRC.
 * E-mail also works.
 
@@ -71,7 +77,13 @@ Generally the Telegram and IRC chats are linked (bridged) together, so the cours
 -->
 ## Demonstration
 
-* <!--Time and place: Monday 6.5. 10-12 D122.-->Hopefully a doodle questionnaire will be sent out after the start of the course with potential times.
+* * <script>
+  if (timing["demo"]) {
+    document.write("Paikka ja aika: " + enEvent(timing["demo"]) + ".");
+  } else {
+    document.write("Time and place for the demo session will be confirmed later.");
+  }
+</script>
 * **Mandatory!** Contact the course assistant if you can not make the Demo session. The Demo session is mandatory to get a passing grade!
 * You can present with your own laptop. In this case you may want to arrive early to test that the laptop works properly with the projector.
 * All projects will also be loaded onto a presentation machine, which you may use for the demonstration. However there have been issues with this in the past so presenting with your own laptop is recommended.

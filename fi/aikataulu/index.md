@@ -78,7 +78,6 @@ permalink: /fi/aikataulu/
     document.write("Tarkka aika ja paikka varmistuu kurssin kuluessa.")
   }
 </script>
-<!--* Maanantai 6.5. 10-12 D122.-->
 * Mahdollisuus esittää koulun koneelta, mutta aiemmin sen kanssa on ollut ongelmia joten suositeltavaa ottaa oma läppäri.
 * Lyhyt noin 5 minuuttinen esitys ja mahdollisiin kysymyksiin vastailu (riippuen aikataulusta).
 

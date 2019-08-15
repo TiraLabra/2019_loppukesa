@@ -27,12 +27,19 @@ Tarkempi aikataulu [täällä](fi/aikataulu/).
 
 ## 📣 Ajankohtaista
 
-<!-- * Demotilaisuuden ajankohdat on lyöty lukkoon. Ottakaa yhteyttä jos ette pääse kumpaankaan demotilaisuuteen.-->
- * Doodle linkki demotilaisuuden aikatauluttamiseksi on lähetetty kurssille ilmoittautuneille opiskelijoille. Sähköposti on lähtenyt siihen osoitteseen mikä on weboodiin rekisteröity.
- <!--* Ekat koodikatselmoinnit on jaettu. Katsokaa katselmoitavat labtoolista.
--->
+ * <script>
+   if (doodleSent) {
+    if (timing["demo"]) {
+      document.write("Demotilaisuuden ajankohdat on lyöty lukkoon. Ottakaa yhteyttä jos ette pääse paikalle.")
+    } else {
+      document.write("Doodle linkki demotilaisuuden aikatauluttamiseksi on lähetetty kurssille ilmoittautuneille opiskelijoille. Sähköposti on lähtenyt siihen osoitteseen mikä on weboodiin rekisteröity.")
+    }
+   } else {
+    document.write("Kysely demotilaisuuden aikatauluttamiseksi lähetetään kurssin puolivälin paikkeilla.")
+   }
+ </script>
  * Lopullinen palautus <script>document.write(fiString(timing["end"].date));</script>, tähän ei ole saatavilla lisäaikaa.
- * Jos löydät kurssisivuilta kirjoitus- tai muun virheen. Voit seurata [täältä](fi/bug_bounty) löytyviä ohjeita virheen korjaamisesksi. Hyvistä korjauksista on mahdollista saada yhden kurssipisteen "bug bounty" (max 1 per oppilas)
+ * Jos löydät kurssisivuilta jotain parannettavaa. Voit seurata [täältä](fi/bug_bounty) löytyviä ohjeita virheen korjaamisesksi. Hyvistä korjauksista on mahdollista saada yhden kurssipisteen "bug bounty" (max 1 per oppilas)
 
 ## Linkkejä materiaaliin
 
@@ -76,10 +83,16 @@ Telegram kanava on (yleensä) sillattu irkkiin, joten ohjaajaan päässee käsik
 -->
 ## Demotilaisuus
 
-* <!--Paikka ja aika: Maanantai 6.5. 10-12 D122. -->Suunnitelma on laittaa pari viikkoa kurssin alun jälkeen doodle kysely sopivimman demo-ajan löytämiseksi.
+* <script>
+  if (timing["demo"]) {
+    document.write("Paikka ja aika: " + fiEvent(timing["demo"]) + ".");
+  } else {
+    document.write("Aika ja paikka vahvistuvat myöhemmin.");
+  }
+</script>
 * **PAKOLLINEN!** Ota yhteyttä jos et pääse demotilaisuuteen, se on läpipääsyyn pakollinen!
-* Demota kannattaa omalta kannettavalta. Tässa tapauksessa voi olla hyvä saapua demoon hyvissä ajoin ja varmistaa että projektori toimii koneen kanssa
-* Projektit ladataan myös etukäteen esityskoneelle. Mutta ei omalta koneelta esittäminen ei perinteisesti onnistu kauhean hyvin.
+* One erittäin suositeltavaa demota omalta kannettavalta. Tässa tapauksessa voi olla hyvä saapua demoon hyvissä ajoin ja varmistaa että projektori toimii koneen kanssa. Jos omaa kannettavaa ei ole kannattaa demoamisesta sopia kaverin tai ohjaajan kanssa erikseen.
+* Projektit ladataan myös etukäteen esityskoneelle. Mutta ei omalta koneelta esittäminen ei perinteisesti onnistu kauhean hyvin. Esityskoneet eivät läheskään aina toimi ollenkaan, ja kun toimivat niin projektit eivät välttämättä toimi esityskoneen ympäristössä.
 * Noin 5min per projekti.
 * Ei tarvitse dioja, mutta halutessaan niitä voi käyttää, tosin ne vie aikaa, joten ei suositeltu, etenkään ellei tuo omaa konetta esitykseen.
 
