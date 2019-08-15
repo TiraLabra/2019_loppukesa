@@ -77,9 +77,9 @@ Generally the Telegram and IRC chats are linked (bridged) together, so the cours
 -->
 ## Demonstration
 
-* * <script>
+* <script>
   if (timing["demo"]) {
-    document.write("Paikka ja aika: " + enEvent(timing["demo"]) + ".");
+    document.write("Time and place: " + enEvent(timing["demo"]) + ".");
   } else {
     document.write("Time and place for the demo session will be confirmed later.");
   }
