@@ -32,7 +32,7 @@ Alkuperäinen ohje: Mika Huttunen ja Silja Polvi
 *ÄLÄ* käytä Netbeansin tarjoamaa Git-lisäosaa *ÄLÄKÄ* graafisia ohjelmia. Tähän asti kaikki kurssilla päivän koodaustyönsä menettäneiden ongelmat ovat johtuneet näistä. Käytä aina Linuxissa/OSX:ssä terminaalia tai Windowsissa Git Bashia, ja tee Commitit sekä Pushit käsin.
 
 1.  Jos et ole koulun koneella ja koneessasi ei ole valmiiksi Gitiä, voit ladata sen täältä: [http://help.github.com/win-set-up-git/](http://help.github.com/win-set-up-git/). Ohje on Windowsille, mutta sen alussa on linkit myös muita käyttöjärjestelmiä varten.
-2.  Mene osoitteeseen [Github.com/plans](www.Github.com/plans)
+2.  Mene osoitteeseen [Github.com/plans](https://github.com/pricing)
 3.  Paina oikealla ylhäällä olevaa nappia “Create a free account”
 4.  Täytä vaadittavat neljä kenttää ja klikkaa “Create an account”
 5.  Paina oikealla olevaa harmaata nappia “New repository”
