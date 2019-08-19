@@ -8,9 +8,9 @@ title: Tiralabra
 
 <script src="assets/fuu.js"></script>
 
-## Link to english materials
+## Link to English materials
 
-[Link to english materials](en/)
+[Link to English materials](en/)
 
 ## Ohjaaja
 
